@@ -1,12 +1,19 @@
-# React + Vite
+# User Management Dashboard (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built with **React**, **Vite**, **Tailwind CSS**, and **Context API**, featuring:
 
-Currently, two official plugins are available:
+- 🔐 **Login Page**  
+- 📊 **Admin Dashboard**
+- 👥 **User Management (View/Delete Users)**
+- 🧩 Optional: Modal functionality
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Authentication Flow**: Simple mock login using Context API (no backend).
+- **Admin Dashboard**: Displays app overview and user statistics.
+- **User List Page**: View all users, delete functionality included.
+- **Responsive Design**: Mobile-friendly layout using Tailwind CSS.
+- **Modular Architecture**: Clean and scalable component structure.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
